@@ -225,14 +225,14 @@ div.mt-4:has(svg.lucide-messages-square) button.ant-btn:active {
 div.mt-4:has(svg.lucide-messages-square)>button.ant-btn:has(svg.lucide-messages-square) {
     flex-shrink: 0 !important; width: auto !important; height: 50px !important;
     background: var(--co-coral) !important;
-    color: #fff !important; font-weight: 700 !important; font-size: 0.88em !important;
+    color: #111 !important; font-weight: 700 !important; font-size: 0.88em !important;
     border: none !important; clip-path: none !important; padding: 0 24px !important;
     border-radius: var(--co-radius-sm) !important;
     box-shadow: 0 0 16px rgba(61, 220, 132, 0.4), 0 0 32px rgba(61, 220, 132, 0.15) !important;
     animation: none !important;
     transition: background .3s ease, box-shadow .3s ease !important
 }
-div.mt-4:has(svg.lucide-messages-square)>button.ant-btn:has(svg.lucide-messages-square) svg { color: #fff !important; stroke: #fff !important }
+div.mt-4:has(svg.lucide-messages-square)>button.ant-btn:has(svg.lucide-messages-square) svg { color: #111 !important; stroke: #111 !important }
 div.mt-4:has(svg.lucide-messages-square)>button.ant-btn:has(svg.lucide-messages-square)::before { display: none !important }
 div.mt-4:has(svg.lucide-messages-square)>button.ant-btn:has(svg.lucide-messages-square):hover {
     transform: none !important;
@@ -776,7 +776,7 @@ div.mt-2 { margin-top: 24px !important }
 
 /* Support button — yellow bg, black text */
 .co-btn-support {
-    background: var(--co-coral) !important; color: #fff !important;
+    background: var(--co-coral) !important; color: #111 !important;
     border: 1px solid var(--co-coral) !important;
     box-shadow: none !important
 }
@@ -787,7 +787,7 @@ div.mt-2 { margin-top: 24px !important }
     transform: translateY(-2px)
 }
 .co-btn-heart {
-    font-size: 1.1em; color: #fff; line-height: 1
+    font-size: 1.1em; color: #111; line-height: 1
 }
 
 /* ═══ CARD ROW ═══ */
